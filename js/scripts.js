@@ -1,8 +1,8 @@
-var base = prompt("Podaj długość podstawy (a):");
-    height = prompt("Podaj wysokość (h):");
-    triangle0Area = getTriangleArea(base, height);
-    triangle1Area = getTriangleArea(10, 15);
-    triangle2Area = getTriangleArea(12, 24);
+var base = prompt("Podaj długość podstawy (a):"),
+    height = prompt("Podaj wysokość (h):"),
+    triangle0Area = getTriangleArea(base, height),
+    triangle1Area = getTriangleArea(10, 15),
+    triangle2Area = getTriangleArea(12, 24),
     triangle3Area = getTriangleArea(16, 32);
 
 document.getElementById("result0").innerHTML = triangle0Area;
