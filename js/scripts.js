@@ -13,5 +13,7 @@ document.getElementById("result3").innerHTML = triangle3Area;
 function getTriangleArea(a, h) {
     if (a <= 0 || h <= 0) {
         return "nieprawidłowe dane";
-    } else {return a*h/2;}
+    } else {
+        return a*h/2;
+    }
 };
